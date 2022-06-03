@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'SANJUGotgam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANJUGotgam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#clause{
+	text-align: center;
+	font-family: 'SANJUGotgam';
+	color:  rgb(74, 173, 140);	
+}
+#exit{
+	
+	text-align: center;
+	font-size: 15px;
+	font-weight:bold;
+	width: 70px;
+	height:35px;
+	position : absolute;
+	top: 20px;
+	right: 5px;
+	background-color: rgb(74, 173, 140);
+	border: 1px, solid,  rgb(74, 173, 140);
+	border-radius: 5px;
+}
+
+#a{
+	position: relative;
+	
+}

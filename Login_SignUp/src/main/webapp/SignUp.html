@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="SignUp.js"></script>
+    <title>회원가입</title>
+</head>
+<body>
+        <div id="su">
+            <span id="su_text">회 원 가 입</span>
+        </div>
+        
+        <center>
+        <span id="sign">
+            <p><input id="id" class="form" type="text" minlength="6" maxlength="12" required placeholder="아이디(6자리이상,12자리이하)"></p>
+            <p><input id="pw" class="form" type="password" minlength="4" maxlength="12" required placeholder="비밀번호(4자리이상,12자리이하)"></p>
+            <p><input id="re_pw" class="form" type="password" minlength="4" maxlength="12" required placeholder="비밀번호 재입력"></p>
+            <p><input id="userName" class="form" type="text"  minlength="2" maxlength="12" placeholder="이름"></p>
+            <p><input id="email" class="form" type="email"  minlength="10" maxlength="20" placeholder="이메일"></p>
+             <div class="input_check">
+                <input type="checkbox" name="agreement" id="termsOfService" value="termsOfService" required />
+                <label for="termsOfService" class="required" onclick="showPopup();">이용약관 동의</label><br>
+                <input type="checkbox" name="agreement" id="privacyPolicy" value="privacyPolicy" required />
+                <label for="privacyPolicy" class="required"onclick="showPopup_1();">개인정보 수집 및 이용 동의</label>
+                <br>
+              </div>
+            <br><br><input id="enter" type="image" src="회원가입.png" onclick="check();">
+        </span>
+        </center>
+		  
+</body>
+</html>

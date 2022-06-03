@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'SANJUGotgam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANJUGotgam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#login{
+    position: relative;
+    top:150px;
+    left: 20px;
+} 
+#id{
+    border:2px solid rgb(74, 173, 140);
+    border-radius: 10px;
+    width: 500px;
+    height: 70px;
+    position: absolute;
+
+    
+}
+#pw{
+    border:2px solid rgb(74, 173, 140);
+    border-radius: 10px;
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    top: 95px;
+}
+#lo{
+    font-family: 'SANJUGotgam';
+    font-size: 80px;
+    color: rgb(74, 173, 140);
+    position: absolute;
+    top: 40px;
+    left:155px;
+}
+#lot{
+    background-color: rgb(238, 226, 173);
+    width: 550px;
+    height: 500px;
+    position:absolute;
+   
+    border-radius: 30px;
+}
+#enter{
+    background-color: rgb(91, 63, 192);
+    width: 510px;
+    height: 60px;
+    position: absolute;
+    top: 330px;
+    left: 20px;
+    border: 2px solid rgb(91, 63, 192);
+    border-radius: 10px;
+}
+input::placeholder{
+    font-weight: bold;
+    font-size: 15px;
+}
+ 
